@@ -13,7 +13,7 @@
 <%= f.password_field :password_confirmation %></p>
 
 <% if can? :manage, @users %>
-<p><%= f.label :role %>: <%= f.collection_select :role, User::ROLES, :to_s, :humanize, {:include_blank => true} %></p>
+<p><%= f.label :role %>: <%= f.collection_select :role, User::ROLES, :to_s, :humanize %></p>
 <% end %>
 
 <p><%= f.submit "Submit" %></p>

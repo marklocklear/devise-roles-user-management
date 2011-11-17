@@ -2,7 +2,7 @@ class RegistrationsController < Devise::RegistrationsController
 
   def create
     build_resource
-    resource.role = "user"
+    resource.role = "admin"
 
     if resource.save
       if resource.active?
