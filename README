@@ -1,2 +1,7 @@
 Forked from zmbmartin/devise-roles-user-management. Modify for use with sqlite rather than mongodb.
+
 This is a quick and simple example of how you can use Devise with CanCan so an Admin(role) can manage Users.
+
+When you use the 'Sign Up' link from the main page your user has the 'Admin' role which allows this user to create
+other users. When you create a user from within the application you can set the users role as either 'Admin' or 'User'.
+If they have the 'User' role then they can not create other users.
