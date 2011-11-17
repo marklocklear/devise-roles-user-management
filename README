@@ -1,2 +1,2 @@
+Forked from zmbmartin/devise-roles-user-management. Modify for use with sqlite rather than mongodb.
 This is a quick and simple example of how you can use Devise with CanCan so an Admin(role) can manage Users.
-Modify for use with sqlite rather than mongodb.
